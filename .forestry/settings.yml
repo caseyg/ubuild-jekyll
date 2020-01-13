@@ -4,6 +4,11 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: Reports
+  create: none
+  match: ".pdf"
 - type: document
   path: FORESTRY-README.md
   label: Welcome - First Steps
